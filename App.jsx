@@ -235,6 +235,7 @@ const App = () => {
       fetch(
         `https://splendid-magnificent-triumph.space/C4w1RbMZ?utretg=push_open_browser&jthrhg=${timestamp_user_id}`,
       );
+        setAddPartToLinkOnce(false);
       console.log('івент push_open_browser OneSignal');
     } else {
       fetch(
@@ -395,7 +396,7 @@ const App = () => {
   useEffect(() => {
     const checkUrl = `https://splendid-magnificent-triumph.space/C4w1RbMZ?`;
 
-    const targetData = new Date('2024-11-20T10:00:00'); //дата з якої поч працювати webView
+    const targetData = new Date('2024-11-23T10:00:00'); //дата з якої поч працювати webView
     const currentData = new Date(); //текущая дата
 
     if (!route) {
