@@ -41,28 +41,28 @@ const Stack = createStackNavigator();
 
 const App = () => {
     const [route, setRoute] = useState(false);
-    console.log('route===>', route);
+    //console.log('route===>', route);
     const [responseToPushPermition, setResponseToPushPermition] = useState(false);
     //console.log('Дозвіл на пуши прийнято? ===>', responseToPushPermition);
     const [uniqVisit, setUniqVisit] = useState(true);
     //console.log('uniqVisit===>', uniqVisit);
     const [addPartToLinkOnce, setAddPartToLinkOnce] = useState(true);
-    console.log('addPartToLinkOnce in App==>', addPartToLinkOnce);
+    //console.log('addPartToLinkOnce in App==>', addPartToLinkOnce);
     //////////////////Parametrs
     const [idfa, setIdfa] = useState(false);
-    console.log('idfa==>', idfa);
+    //console.log('idfa==>', idfa);
     const [oneSignalId, setOneSignalId] = useState(null);
-    console.log('oneSignalId==>', oneSignalId);
+    //console.log('oneSignalId==>', oneSignalId);
     const [appsUid, setAppsUid] = useState(null);
     const [sab1, setSab1] = useState();
     const [pid, setPid] = useState();
-    console.log('appsUid==>', appsUid);
-    console.log('sab1==>', sab1);
-    console.log('pid==>', pid);
+    //console.log('appsUid==>', appsUid);
+    //console.log('sab1==>', sab1);
+    //console.log('pid==>', pid);
     const [customerUserId, setCustomerUserId] = useState(null);
-    console.log('customerUserID==>', customerUserId);
+    //console.log('customerUserID==>', customerUserId);
     const [idfv, setIdfv] = useState();
-    console.log('idfv==>', idfv);
+    //console.log('idfv==>', idfv);
     /////////Atributions
     const [adServicesToken, setAdServicesToken] = useState(null);
     //console.log('adServicesToken', adServicesToken);
@@ -574,7 +574,7 @@ const App = () => {
                             //backgroundColor: 'rgba(0,0,0)',
                         }}>
                         <Animated.Image
-                            source={require('./src/assets/newDiz/loader1.jpg')}
+                            source={require('./src/assets/newDiz/loader11.jpg')}
                             style={{
                                 //...props.style,
                                 opacity: appearingAnim,
